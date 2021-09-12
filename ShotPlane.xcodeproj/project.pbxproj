@@ -15,9 +15,6 @@
 		9C020A4E26E375CA00F292E7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9C020A3826E375C200F292E7 /* GameScene.sks */; };
 		9C020A4F26E375CA00F292E7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C020A3926E375C200F292E7 /* GameScene.swift */; };
 		9C020A5026E375CA00F292E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C020A3A26E375CA00F292E7 /* Assets.xcassets */; };
-		9CC9386326EC7ECE0055BD44 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC9386226EC7ECE0055BD44 /* Player.swift */; };
-		9CC9386626EC8B510055BD44 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC9386526EC8B510055BD44 /* Enemy.swift */; };
-		9CC9386A26EC8E310055BD44 /* CGFloat+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC9386926EC8E310055BD44 /* CGFloat+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +28,6 @@
 		9C020A4726E375CA00F292E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C020A4A26E375CA00F292E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C020A4C26E375CA00F292E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9CC9386226EC7ECE0055BD44 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
-		9CC9386526EC8B510055BD44 /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
-		9CC9386926EC8E310055BD44 /* CGFloat+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +53,6 @@
 		9C020A3626E375C200F292E7 /* ShotPlane Shared */ = {
 			isa = PBXGroup;
 			children = (
-				9CC9386826EC8E1B0055BD44 /* Utilities */,
-				9CC9386126EC7EBD0055BD44 /* Model */,
 				9C020A3726E375C200F292E7 /* Actions.sks */,
 				9C020A3826E375C200F292E7 /* GameScene.sks */,
 				9C020A3926E375C200F292E7 /* GameScene.swift */,
@@ -87,23 +79,6 @@
 				9C020A4C26E375CA00F292E7 /* Info.plist */,
 			);
 			path = "ShotPlane iOS";
-			sourceTree = "<group>";
-		};
-		9CC9386126EC7EBD0055BD44 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				9CC9386226EC7ECE0055BD44 /* Player.swift */,
-				9CC9386526EC8B510055BD44 /* Enemy.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		9CC9386826EC8E1B0055BD44 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				9CC9386926EC8E310055BD44 /* CGFloat+Ext.swift */,
-			);
-			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,9 +153,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CC9386A26EC8E310055BD44 /* CGFloat+Ext.swift in Sources */,
-				9CC9386326EC7ECE0055BD44 /* Player.swift in Sources */,
-				9CC9386626EC8B510055BD44 /* Enemy.swift in Sources */,
 				9C020A4F26E375CA00F292E7 /* GameScene.swift in Sources */,
 				9C020A4526E375CA00F292E7 /* GameViewController.swift in Sources */,
 				9C020A4326E375CA00F292E7 /* AppDelegate.swift in Sources */,
